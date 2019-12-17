@@ -19,7 +19,7 @@ function submitData(name, email) {
     })
     .catch(function(error) {
       debugger;
-      alert("Bad things! Ragnarők!");
+      alert("Its a bad time!");
       document.body.innerHTML = error.message;
     });
 }
